@@ -12,11 +12,19 @@
     top:10px;
 }
 
-
+.MacD{
+    list-style: none;
+    background-image: url('mcd.png');
+    background-repeat: no-repeat;
+    background-position: top-left;
+    background-size: 28px;
+    margin-bottom: 0px;
+}
 
 /*Images on the list*/
 .ListImg{
-    width: 30px;
+    width: 20px;
+    padding-right: 8px;
 }
 
 /*diferent background color for text*/
@@ -77,6 +85,11 @@
    width:100%;
 }
 
+li{
+    font-family: Asul;
+    text-align: justify;
+}
+
 aside{
     display: flex;
     float:left;
@@ -91,13 +104,13 @@ aside>section>header{
 }
 
 aside>section>article{
-    padding:10px;
+    /*padding:10px;*/
     padding-left: 10px;
     display: flex;
 }
 
 body>footer{
-    height: 50px; 
+    height:10px; 
     width:100%;
     background-color:hwb(221 23% 40%) ;
     display: flex;
@@ -137,10 +150,11 @@ body>header{
 }
 
 body>article{
-    padding-top: 20px;
+    padding-top: 10px;
     padding-inline: 20px;
     display:table-cell;
     min-width: 190px;
+    margin-right: 20px;
 }
 
 table{
@@ -165,6 +179,7 @@ th, td{
 
 dt{
     font-family: Asul;
+    display: flex;
 }
 
 dl{
