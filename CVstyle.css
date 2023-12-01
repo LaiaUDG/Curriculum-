@@ -62,7 +62,7 @@
 .Usuari{
     margin-bottom:10px;
     font-family: Cutive;
-    font-size: x-large;
+    font-size: 40px;
 }
 
 .Idiomes{
@@ -154,7 +154,7 @@ body>article{
     padding-inline: 20px;
     display:table-cell;
     min-width: 190px;
-    margin-right: 20px;
+    padding-right: 20px;
 }
 
 table{
@@ -176,10 +176,15 @@ th, td{
     font-weight:bold;
     background-color: white;
 }
+dt,p,li,td,th{
+    font-size: 18px;
+}
 
 dt{
     font-family: Asul;
     display: flex;
+    margin-bottom: 3px;
+    
 }
 
 dl{
@@ -195,9 +200,12 @@ p{
 h2{
     font-family: Cutive;
     font-size:large;
+    margin-bottom: 5px;
 }
 
 h3{
+    font-size: 30px;
+    margin:2px;
     font-family: Space Mono;
 }
 
