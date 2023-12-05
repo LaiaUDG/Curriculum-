@@ -3,8 +3,8 @@
     width: 30%;
     max-width: 200px;
     min-width: 110px;
-    border-radius: 150px;
-    border: 8px solid hwb(221 23% 40%);
+    border-radius: 140px;
+    border: 8px solid hwb(0 100% 0%);
     border-style: double;
     padding: 4px;
     float: right;
@@ -12,30 +12,33 @@
     top:10px;
 }
 
-.MacD{
-    list-style: none;
-    background-image: url('mcd.png');
-    background-repeat: no-repeat;
-    background-position: top-left;
-    background-size: 28px;
-    margin-bottom: 0px;
+strong{
+    font-size:107%;
+    color: black;
+}
+
+.EXP{
+    text-align: justify;
 }
 
 /*Images on the list*/
 .ListImg{
-    width: 20px;
-    padding-right: 8px;
+    width: 8%;
+}
+
+.McDo{
+    width: 100%;
 }
 
 /*diferent background color for text*/
 .colored{
-    background-color: rgb(162, 186, 238);
-    color: hwb(0 0% 100%);
+    background-color: hwb(224 24% 70%);
+    color: white;
 
 }
 
 .colored1{
-    background-color: hwb(221 23% 40%);
+    background-color: hwb(224 24% 70%);
     color: white;
 }
 
@@ -49,9 +52,13 @@
     width: 100%;
 }
 
+.side>p{
+    padding-right: 20px;
+}
+
 /*inside the aside*/
 .Pestanya{
-    background-color: rgb(162, 186, 238);
+    background-color: rgb(233, 233, 233);
     border-end-end-radius:40px;  
     padding-inline: 20px;
     min-width:280px;
@@ -62,7 +69,7 @@
 .Usuari{
     margin-bottom:10px;
     font-family: Cutive;
-    font-size: 40px;
+    font-size: x-large;
 }
 
 .Idiomes{
@@ -71,11 +78,11 @@
 }
 
 .fa-star{
-    color:rgb(162, 186, 238);
+    color:rgb(255, 255, 255);
 }
 
 .checked {
-    color: #ffc85b;
+    color: #000000;
   }
 
 .skills{
@@ -85,18 +92,13 @@
    width:100%;
 }
 
-li{
-    font-family: Asul;
-    text-align: justify;
-}
-
 aside{
     display: flex;
     float:left;
     flex-direction:column;
-    margin: 20px;
+    margin-left: 20px;
     min-width:300px;
-    width: 40%;
+    width: 38%;
 }
 
 aside>section>header{
@@ -104,15 +106,15 @@ aside>section>header{
 }
 
 aside>section>article{
-    /*padding:10px;*/
+    padding:10;
     padding-left: 10px;
     display: flex;
 }
 
 body>footer{
-    height:10px; 
+    height: 50px; 
     width:100%;
-    background-color:hwb(221 23% 40%) ;
+    background-color:hwb(0 100% 0%) ;
     display: flex;
     flex-direction: column;
 }
@@ -121,24 +123,19 @@ aside>section>footer{
     width: 85%;
     height: 50px;
     border-top-right-radius: 80px;
-    background-color:hwb(221 23% 40%) ;
+    background-color: hwb(224 24% 70%);
     
 }
 
 html{
-    background-color: #ffd285;
+    background-color: #ffffff;
     margin:auto;
     display: table;
 }
 
-a{
-    font-family: Space Mono;
-    color:#ffb625;
-    font-weight: bold;
-}
 
 body{
-    background-color: rgb(230, 236, 255);  
+    background-color: rgb(255, 255, 255);  
     vertical-align: middle;
     max-width: 1200px;
     display:table-cell;
@@ -146,7 +143,7 @@ body{
 
 body>header{
     height: 40px;
-    background-color: hwb(221 23% 40%);
+    background-color: hwb(0 100% 0%);
 }
 
 body>article{
@@ -154,7 +151,6 @@ body>article{
     padding-inline: 20px;
     display:table-cell;
     min-width: 190px;
-    padding-right: 20px;
 }
 
 table{
@@ -167,51 +163,57 @@ th, td{
     padding: 3px;
     height: 30px;
     padding-inline:10px;
+    line-height: 1.3;
     text-align: center;
+    color:  hwb(221 9% 75%);
 }
 
 .nivell{
     font-family: Asul;
     font-size:medium;
     font-weight:bold;
-    background-color: white;
-}
-dt,p,li,td,th{
-    font-size: 18px;
+    background-color: rgb(204, 204, 204);
+
 }
 
-dt{
+dt,li{
     font-family: Asul;
-    display: flex;
-    margin-bottom: 3px;
-    
+    color:  hwb(221 9% 75%);
+    line-height: 1.3;
 }
 
 dl{
     font-size: large;
     font-style: normal;
+    color:  hwb(221 9% 75%);
 }
 
 p{
     font-family: Asul;
     text-align: justify;
+    line-height: 1.3;
+    margin-bottom: 5px;
+    color:  hwb(221 9% 75%);
 }
 
 h2{
     font-family: Cutive;
     font-size:large;
-    margin-bottom: 5px;
 }
 
 h3{
-    font-size: 30px;
-    margin:2px;
     font-family: Space Mono;
 }
 
 hr{
-    background-color:  hwb(221 23% 40%);
+    background-color:  hwb(221 9% 75%);
     height: 2px;
     border-radius:20px;
     border-color: transparent;
 }
+
+
+
+
+
+

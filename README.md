@@ -10,6 +10,6 @@ The first version of the curriculum can be checked on the next link: https://www
 The final product is the one provided in the GitHub pages. 
 
 INFORMATION ARCHITECTURE: 
-The website is divided in two sections, on the left we find the tables of basic information like a simple ratting in deferents skills, also we find the different levels of languages learned and the most important the user photo and its contact. By the other way, we find more detailed information like the career experience or academic. Each part of the curriculum is inside a section, thanks to that the elements can be easily identified and divided. 
+The website is divided in two sections, on the left we find the tables of basic information like the diferents skills, also we find the different levels of languages learned and the most important the user  contact. By the other way, we find more detailed information like the career or academic experience . Each part of the curriculum is inside a section, thanks to that the elements can be easily identified and divided. 
 
 
